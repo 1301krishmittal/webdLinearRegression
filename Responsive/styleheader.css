@@ -1,0 +1,84 @@
+body{
+    background: rgb(1,14,17);
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y:scroll;
+
+/* background: radial-gradient(circle, rgba(1,14,17,1) 0%, rgba(11,5,45,1) 18%, rgba(9,0,0,1) 38%, rgba(27,27,68,1) 100%); */
+background: radial-gradient(circle, rgba(1,14,17,1) 0%,   rgba(27,27,68,1) 100%);
+}
+body::-webkit-scrollbar {
+display: none;
+}
+nav{
+    margin-top: 40px;
+    color: white;
+    /* background-color: aqua; */
+}
+.header {
+    display: flexbox;
+    font-size: 25px;
+    padding-left: 10px;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-left: 5%;
+    /* Adjust for spacing as needed */
+    /* background-color: bisque; */
+}
+    .header1{
+        margin-left: 22%;
+    }
+    .headerlogo {
+        margin: 40px;
+        font-size: 45px;
+    }
+    .headerlogo::first-Letter{
+        color: aqua;
+        font-size: 70px;
+    }
+    .headerlogo .first-letter {
+       color: aqua;
+        font-size: 70px;
+    }
+    @media(max-width:1400px){
+        .header {
+        display: block;
+        margin: 40px;
+        width: 100%;
+        margin-left: 40px;
+    }  
+}
+
+.maintextarea{
+    /* background-color: brown; */
+font-size: 200px;
+color: rgb(116, 173, 252);
+font-family: 'Heebo';
+margin-top: 30px;
+margin-left: 20px;
+text-align: center;
+margin-bottom: 60px;
+--color1:rgb(138, 183, 246);
+--color2:rgb(114, 183, 246);
+--color3:rgb(153, 213, 246);
+--color4:rgb(112, 153, 209);
+--color5:rgb(110, 170, 220);
+animation: color-animation 5s linear infinite;
+animation-timing-function:ease-in;
+animation-direction: alternate;
+
+}
+.textarea{
+    /* background-color: burlywood; */
+    /* position: relative; */
+    min-height: 210px;
+font-size: 70px;
+color: white;
+margin: 0px;
+font-family: 'Heebo';
+margin-left: 90px;
+max-width: 1100px;
+text-shadow: 2px 2px 5px red;
+}

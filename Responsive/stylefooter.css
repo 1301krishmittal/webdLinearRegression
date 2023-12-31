@@ -1,0 +1,115 @@
+.hr{
+    display: inline-block;
+    width: 100%;
+}
+
+
+.footer1{
+    color: rgb(167, 158, 158);
+    font-size: 20px;
+    left:100px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 120px;
+}
+
+
+
+.footer2{
+    color: rgb(167, 158, 158);
+    font-size: 20px;
+    left: 600px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 500px;
+}
+
+
+
+.footer3{
+    color: rgb(254, 251, 251);
+    font-size: 30px;
+    display: block;
+    width: 270px;
+    /* background-color: blanchedalmond; */
+    margin-left: 100px;
+}
+
+.footer3:hover , .footer4:hover ,.footer5:hover ,.reachlinkedin:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer7{
+    max-width: 500px;
+}
+.footer4,.footer5{
+    color: rgb(249, 244, 244);
+    text-decoration: underline;
+    font-size: 30px;
+    /* background-color: brown; */
+    display: inline;
+    margin-bottom: 200px;
+}
+.image-gmail{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.image-gmail{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.footer4{
+    text-decoration: none;
+    width: 300px;
+}
+
+.footer5{
+    text-decoration: none;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.address{
+    color: rgb(249, 248, 248);
+    display: inline;
+    position: absolute;
+    font-size: 30px;
+    left: 600px;
+    top: 2000px;
+    width: 400px;
+}
+
+
+.copyright{
+    color: rgb(167, 163, 163);
+    font-size: 17px;
+    left:500px;
+    height: 50px;
+    display: inline;
+    position: absolute;
+    top: 2300px;
+    width: 270px;
+}
+
+.reachlinkedin{
+    color: rgb(249, 248, 248);
+    display: inline;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 30px;
+    width: 400px;
+}
+
+.image-linkedin{
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px 30px 30px 30px;
+    left: 1000px;
+    top: 2130px;
+}
